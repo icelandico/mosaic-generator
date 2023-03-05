@@ -15,8 +15,8 @@
 
 <div class="flex flex-col bg-neutral-300 h-auto min-w-96 rounded-3xl p-5">
     <div class="flex">
-        <GridInput inputName="rows" inputText="Rows" bind:inputValue={gridRows} />
-        <GridInput inputName="columns" inputText="Columns" bind:inputValue={gridColumns} />
+        <GridInput inputName="rows" inputText="Rows" bind:inputValue={gridRows} handleCalculateGrid={handleGridGenerate}/>
+        <GridInput inputName="columns" inputText="Columns" bind:inputValue={gridColumns} handleCalculateGrid={handleGridGenerate} />
     </div>
     <div class={`grid grid-cols-${gridColumns} grid-rows-${gridRows} gap-4 my-5`}>
         {#if cells}
@@ -26,6 +26,5 @@
         {/if}
     </div>
 
-    <Button text="Create grid" onClick={handleGridGenerate} />
     <Button text="Generate" />
 </div>

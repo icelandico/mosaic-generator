@@ -1,0 +1,1 @@
+<div class="w-full h-full bg-indigo-600 -rotate-45 scale-75"></div>

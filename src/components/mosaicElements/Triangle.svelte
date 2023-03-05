@@ -21,18 +21,18 @@
     }
 
     .to-top-right {
-        background: linear-gradient(to top right, transparent 0%, transparent 50%, green 50%, green 100%);
+        background: linear-gradient(to top right, transparent 0%, transparent 50%, #57534e 50%, #57534e 100%);
     }
 
     .to-top-left {
-        background: linear-gradient(to top left, transparent 0%, transparent 50%, green 50%, green 100%);
+        background: linear-gradient(to top left, transparent 0%, transparent 50%, #57534e 50%, #57534e 100%);
     }
 
     .to-bottom-left {
-        background: linear-gradient(to bottom left, transparent 0%, transparent 50%, green 50%, green 100%);
+        background: linear-gradient(to bottom left, transparent 0%, transparent 50%, #57534e 50%, #57534e 100%);
     }
 
     .to-bottom-right {
-        background: linear-gradient(to bottom right, transparent 0%, transparent 50%, green 50%, green 100%);
+        background: linear-gradient(to bottom right, transparent 0%, transparent 50%, #57534e 50%, #57534e 100%);
     }
 </style>

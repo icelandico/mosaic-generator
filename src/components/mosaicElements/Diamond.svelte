@@ -1,1 +1,1 @@
-<div class="w-full h-full bg-indigo-600 -rotate-45 scale-75"></div>
+<div class="w-full h-full bg-cyan-700 -rotate-45 scale-75"></div>

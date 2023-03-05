@@ -1,1 +1,1 @@
-<div class="rounded-full w-full h-full bg-amber-700"></div>
+<div class="rounded-full w-full h-full bg-yellow-300"></div>

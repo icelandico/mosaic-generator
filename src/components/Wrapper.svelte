@@ -7,17 +7,19 @@
     import Triangle from "./mosaicElements/Triangle.svelte";
     import Diamond from "./mosaicElements/Diamond.svelte";
     import {getRandomInt} from "../utils/getRandomInt";
+    import HalfOval from "./mosaicElements/HalfOval.svelte";
 
-    enum ShapeNames {
+    enum Shapes {
       CIRCLE = 'circle',
       TRIANGLE = 'triangle',
       DIAMOND = 'diamond',
+      HALF_OVAL = 'half-oval',
     }
 
-    let gridColumns = 3;
-    let gridRows = 3;
+    let gridColumns = 4;
+    let gridRows = 6;
     let cells;
-    const availableShapes = [ShapeNames.CIRCLE, ShapeNames.DIAMOND, ShapeNames.TRIANGLE];
+    const availableShapes = [Shapes.CIRCLE, Shapes.DIAMOND, Shapes.TRIANGLE, Shapes.HALF_OVAL];
     let mosaicStructure = [''];
 
     function handleGridCalculate() {
@@ -42,12 +44,14 @@
 
     function getShapeComponent(shapeName) {
       switch(shapeName) {
-        case ShapeNames.CIRCLE:
+        case Shapes.CIRCLE:
           return Circle;
-        case ShapeNames.TRIANGLE:
+        case Shapes.TRIANGLE:
           return Triangle;
-        case ShapeNames.DIAMOND:
+        case Shapes.DIAMOND:
           return Diamond;
+        case Shapes.HALF_OVAL:
+          return HalfOval;
       }
     }
 

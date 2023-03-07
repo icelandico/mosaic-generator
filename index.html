@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		<meta http-equiv="content-security-policy" content="">
+		<link href="./_app/immutable/assets/_page.5cb6970e.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.58f6312a.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.aa3e3656.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.add8e580.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.d779b864.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/layout.svelte.590e4d94.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/_layout.js.984db11e.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/_layout.da46b06b.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/_page.svelte.52a8dd32.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">
+
+
+<div class="flex flex-col items-center min-h-screen p-2 bg-amber-100"><h1 class="text-lg font-bold text-stone-700 m-5">Mosaic Generator</h1>
+    <div class="flex flex-col bg-neutral-300 h-auto min-w-96 rounded p-5"><div class="flex"><div class="mb-5 mr-5"><label for="rows" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Rows</label>
+    <input min="1" type="number" id="rows" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-20 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" value="6"></div>
+        <div class="mb-5 mr-5"><label for="columns" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Columns</label>
+    <input min="1" type="number" id="columns" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-20 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" value="4"></div></div>
+    <div class="grid grid-cols-4 grid-rows-6 gap-2 my-5 bg-slate-700 p-2 rounded"><div class="w-20 h-20"></div></div>
+
+    <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Generate</button></div></div>
+
+
+			
+			<script>
+				{
+					__sveltekit_1wu0b3s = {
+						env: {},
+						base: new URL(".", location).pathname.slice(0, -1),
+						element: document.currentScript.parentElement
+					};
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.58f6312a.js"),
+						import("./_app/immutable/entry/app.d779b864.js")
+					]).then(([kit, app]) => {
+						kit.start(app, __sveltekit_1wu0b3s.element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>

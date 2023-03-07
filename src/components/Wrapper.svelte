@@ -57,7 +57,7 @@
 
 </script>
 
-<div class="flex flex-col bg-neutral-300 h-auto min-w-96 rounded-3xl p-5">
+<div class="flex flex-col bg-neutral-300 h-auto min-w-96 rounded p-5">
     <div class="flex">
         <GridInput inputName="rows" inputText="Rows" bind:inputValue={gridRows} handleCalculateGrid={generateMosaicStructure}/>
         <GridInput inputName="columns" inputText="Columns" bind:inputValue={gridColumns} handleCalculateGrid={generateMosaicStructure} />
